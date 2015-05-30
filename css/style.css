@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+
+body{
+    background-size: 100% auto;
+    background-repeat: no-repeat no-repeat;
+    background-color: #024959;
+    text-align: center;
+}
+.retraso-4{
+-webkit-animation-delay:4s;
+-moz-animation-delay:4s;
+animation-delay: 4s;
+}
+.retraso-2{
+-webkit-animation-delay:2s;
+-moz-animation-delay:2s;
+animation-delay: 2s;
+}
+img{
+border-radius: 15px;
+max-width: 100%;
+}
+.quitar-float{
+    float:none;
+}
+.espacio-arriba{
+    margin-top:3em;
+}
+.ubuntu{
+font-family: 'Ubuntu', sans-serif;
+color: #F24C27;
+}
+.lato
+{
+font-family: 'Lato', sans-serif;
+}
+.yellow{
+font-family: 'Yellowtail', cursive;
+font-size: 80px;
+color: #FFFFFA;
+}
+.sandwich h2{
+margin-bottom: -1em;
+text-align: left;
+}
