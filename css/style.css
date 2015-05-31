@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
-@import url(http://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://fonts.googleapis.com/css?family=Lato:900);
 @import url(http://fonts.googleapis.com/css?family=Yellowtail);
 
 body{
@@ -7,6 +7,23 @@ body{
     background-repeat: no-repeat no-repeat;
     background-color: #024959;
     text-align: center;
+}
+a{
+color: #037E8C;
+font-size: 16px;
+}
+a:hover{
+color:black;
+}
+.retraso-8{
+-webkit-animation-delay:8s;
+-moz-animation-delay:8s;
+animation-delay: 8s;
+}
+.retraso-6{
+-webkit-animation-delay:6s;
+-moz-animation-delay:6s;
+animation-delay: 6s;
 }
 .retraso-4{
 -webkit-animation-delay:4s;
@@ -26,7 +43,36 @@ max-width: 100%;
     float:none;
 }
 .espacio-arriba{
-    margin-top:3em;
+    margin-top: 4em;
+}
+.mini-arriba{
+margin-top:1em;
+}
+.sin-abajo{
+margin-bottom: -.5em;
+}
+.sin-arriba{
+margin-top:-2em;
+}
+.espacio-derecha{
+    margin-right: 1em;
+}
+.se-gris{
+background-color: #F24C27;
+}
+.padding-largo{
+padding: 5px 10px;
+}
+.no-lista{
+margin: 0px;
+padding: 0px;
+}
+.no-lista li{
+list-style-type: none;
+}
+.inline-block{
+floa: none;
+display: inline-block;
 }
 .ubuntu{
 font-family: 'Ubuntu', sans-serif;
@@ -38,10 +84,38 @@ font-family: 'Lato', sans-serif;
 }
 .yellow{
 font-family: 'Yellowtail', cursive;
-font-size: 80px;
+    margin-top: .5em;
 color: #FFFFFA;
+}
+.grande{
+font-size: 60px;
+}
+.mediano{
+font-size: 30px;
+}
+.pequeno{
+font-size: 18px;
 }
 .sandwich h2{
 margin-bottom: -1em;
 text-align: left;
 }
+.sandwich{
+    background-color: #271900;
+    border-radius: 20px;
+    width: 10em;
+    max-height: 100%;
+}
+#sandwich-2{background-color: #73002b;}
+#sandwich-3{background-color: #c24356;}
+#sandwich-4{background-color: #f3ed99;}
+#c1{color: #c2976c;}
+#c2{color: #8cc43d;}
+#c3{color: #ec1c2c;}
+#c4{color: #fbae3c;}
+#c5{color: #724a27;}
+#c6{color: #ffffff;}
+#c7{color: #e39da8;}
+#c8{color: #f29c83;}
+#c9{color: #eed437;}
+#c10{color: #c36856;}
